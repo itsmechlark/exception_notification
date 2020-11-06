@@ -47,6 +47,7 @@ GEM
     celluloid (0.15.2)
       timers (~> 1.1.0)
     colorize (0.5.8)
+    concurrent-ruby (1.1.7)
     connection_pool (2.0.0)
     coveralls (0.6.5)
       colorize
@@ -68,7 +69,8 @@ GEM
     httparty (0.10.2)
       multi_json (~> 1.0)
       multi_xml (>= 0.5.2)
-    i18n (0.6.0)
+    i18n (0.9.5)
+      concurrent-ruby (~> 1.0)
     journey (1.0.4)
     json (1.8.1)
     mail (2.4.4)
